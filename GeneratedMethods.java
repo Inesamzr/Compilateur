@@ -1,53 +1,16 @@
-
-    public static void droite() {
-        x++;
-    }
-    public static void gauche() {
-        x--;
-    }
-    public static void droite() {
-        x++;
-    }
-    public static void gauche() {
-        x--;
-    }
-    public static void call(String fichier) {
+public class GeneratedMethods {
+    public static Integer droite() { return +1; }
+    public static Integer gauche() { return -1; }
+    public static Integer test() { return -1+1; }
+    public static Integer call(String fichier) {
         switch (fichier) {
             case "droite.txt":
                 droite();
-                break;            case "gauche.txt":
+            case "gauche.txt":
                 gauche();
-                break;
+            case "test.txt":
+                test();
             default:
-                System.out.println("Fichier non reconnu : " + fichier);
+                return 0;
         }
     }
-    public static void droite() {
-        x++;
-    }
-    public static void gauche() {
-        x--;
-    }
-    public static void call(String fichier) {
-        switch (fichier) {
-            case "droite.txt":
-                droite();
-                break;            case "gauche.txt":
-                gauche();
-                break;
-            default:
-                System.out.println("Fichier non reconnu : " + fichier);
-        }
-    }
-
-    }
-
-    public static void droite() {
-        x++;
-    }
-
-    public static void gauche() {
-        x--;
-    }
-
-}
